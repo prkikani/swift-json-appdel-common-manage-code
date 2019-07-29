@@ -1,11 +1,3 @@
-    //
-//  DataModel.swift
-//  iFax iOS
-//
-//  Created by MAC02 on 18/07/16.
-//  Copyright © 2016 Moontechnolabs. All rights reserved.
-//
-
 import Foundation
 import CoreData
 class DataModel: NSObject {
