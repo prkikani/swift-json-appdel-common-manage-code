@@ -1,12 +1,4 @@
 
-//
-//  AppDelegate.swift
-//  iFax iOS
-//
-//  Created by MAC13 on 13/06/16.
-//  Copyright © 2016 Moontechnolabs. All rights reserved.
-//
-
 import UIKit
 import CoreData
 import Fabric
