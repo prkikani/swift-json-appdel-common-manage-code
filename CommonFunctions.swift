@@ -1,10 +1,3 @@
-//
-//  CommonFunctions.swift
-//  iFax iOS
-//
-//  Created by MAC18 on 25/06/16.
-//  Copyright © 2016 Moontechnolabs. All rights reserved.
-//
 
 import UIKit
 import AVFoundation
