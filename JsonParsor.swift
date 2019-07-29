@@ -1,10 +1,3 @@
-//
-//  JsonParsor.swift
-//  iFax iOS
-//
-//  Created by Pradip Kikani on 10/09/16.
-//  Copyright © 2016 Moontechnolabs. All rights reserved.
-//
 
 import Foundation
 
