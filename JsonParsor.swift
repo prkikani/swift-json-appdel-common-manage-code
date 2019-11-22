@@ -129,3 +129,29 @@ func convertImageTobase64(format: ImageFormat, image:UIImage) -> String? {
     }
     return imageData?.base64EncodedString()
 }
+
+    func getJsonDataDict() -> NSDictionary{
+        
+        let data = self.data(using: String.Encoding.utf8, allowLossyConversion: false)
+        
+        let dict = [String:String]()
+        
+        if let jsonData = data {
+            // Will return an object or nil if JSON decoding fails
+            
+            do {
+                let jsonData = try JSONSerialization.jsonObject(with: jsonData, options: JSONSerialization.ReadingOptions.mutableContainers)
+                
+                let jsonDataDict = jsonData as! NSDictionary
+                
+                return jsonDataDict
+            }  catch {
+                return dict as NSDictionary
+            }
+            
+        } else {
+            return dict as NSDictionary
+        }
+        
+    }
+
